@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = frappe;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
@@ -23,22 +23,22 @@ const default_config = {
           name: "media/rrss",
           links: [
             {
-              name: "mastodon",
-              url: "https://mastodon.social",
-              icon: "brand-mastodon",
-              icon_color: palette.green,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/",
-              icon: "brand-reddit",
-              icon_color: palette.peach,
-            },
-            {
               name: "youtube",
               url: "https://www.youtube.com/",
               icon: "brand-youtube",
               icon_color: palette.red,
+            },
+            {
+              name: "youtubemusic",
+              url: "https://youtubemusic.com/",
+              icon: "music-heart",
+              icon_color: palette.red,
+            },
+            {
+              name: "chatgpt",
+              url: "https://chatgpt.com/",
+              icon: "brand-openai",
+              icon_color: palette.green,
             },
             {
               name: "twitch",
@@ -47,10 +47,10 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "hacker-news",
-              url: "https://news.ycombinator.com/ask",
-              icon: "news",
-              icon_color: palette.mauve,
+              name: "github",
+              url: "https://github.com",
+              icon: "brand-github",
+              icon_color: palette.green,
             },
             {
               name: "lemmy",
