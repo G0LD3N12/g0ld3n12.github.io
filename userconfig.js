@@ -41,10 +41,10 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "twitch",
-              url: "https://www.twitch.tv/",
-              icon: "brand-twitch",
-              icon_color: palette.blue,
+              name: "protonmail",
+              url: "https://mail.proton.me",
+              icon: "brand-campaignmonitor",
+              icon_color: palette.green,
             },
             {
               name: "github",
@@ -53,8 +53,8 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "lemmy",
-              url: "https://lemmy.ml/",
+              name: "gmail",
+              url: "https://gmail.com",
               icon: "users",
               icon_color: palette.sky,
             },
